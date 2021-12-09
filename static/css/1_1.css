@@ -1,0 +1,202 @@
+body{
+  overflow-x: hidden;
+}
+
+.box{
+    position: relative;
+    width: 1354.8px;
+    height: 4110px;
+    margin: -1%;
+  }
+
+.style1{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    max-width: 150%; 
+    max-height: 100%; 
+    padding: 170px; 
+    padding-top: 88%;
+    text-align: left;
+    font-size: 175%;
+} 
+
+.style2{
+  position: absolute;
+  top: 0; 
+  left: 0;
+  max-width: 150%; 
+  max-height: 100%; 
+  padding: 170px; 
+  padding-top: 157%;
+  text-align: left;
+  font-size: 175%;
+} 
+
+.style3{
+  position: absolute;
+  top: 0; 
+  left: 0;
+  max-width: 150%; 
+  max-height: 100%; 
+  padding: 170px; 
+  padding-top: 243%;
+  text-align: left;
+  font-size: 150%;
+}
+
+.style4{
+  position: absolute;
+  top: 0; 
+  left: 0;
+  max-width: 150%; 
+  max-height: 100%; 
+  padding: 170px; 
+  padding-top: 247%;
+  text-align: left;
+  font-size: 100%;
+} 
+
+.style5{
+  position: absolute;
+  top: 0; 
+  left: 0;
+  max-width: 150%; 
+  max-height: 100%; 
+  padding: 170px; 
+  padding-top: 253%;
+  text-align: left;
+  font-size: 175%;
+} 
+
+.text{
+  position: absolute;
+  top: 523%;
+  right: 30%;
+}
+
+.webutton{
+  position: absolute;
+  z-index: 3;
+  top: 595%;
+  left: 9.8%;
+  height: auto;
+  width: 80%;
+}
+
+    /* フッターの記述 */
+    .ooki{
+      font-size: 30px;
+  }
+  #yokonarabi{
+      display: inline;
+  }
+  #footer{
+    background-color: #ebdf35;
+    margin-right: -0.8%;
+    margin-left: -0.7%;
+    margin-bottom: 0%;
+  }
+  .fo{
+      font-size: 35px;
+      margin-top: 0;
+  }
+  .list_triangle {
+      padding: 0px;
+      margin: -5px;
+      list-style: none;
+  }
+  
+  .list_triangle > li {
+      position: relative;
+      padding: 0px 0px 0px 1em;
+  }
+  .list_triangle > li::before {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      width: 0px;
+      height: 0px;
+      border: 0.3em solid transparent;
+      border-left: 0.4em solid black;
+      content: "";
+  }
+
+
+/* ドロワー */
+  .mannaka{
+      text-align: center;
+  }
+  #kiiro{
+      background-color: #ebdf35;
+      width: auto;
+  }
+
+
+
+/* ドロワー、フッターに色をつける */
+  #ao{
+      color: blue;
+  }
+
+  #aka{
+      color: red;
+  }
+
+
+  /* ドロワー */
+  .mannaka{
+      text-align: center;
+  }
+  #kiiro{
+      background-color: #ebdf35;
+      width: auto;
+  }
+
+  #page_top{
+    width: 90px;
+    height: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+    border: 3px solid black;
+    border-radius: 15px;
+    z-index: 10;
+  }
+  #page_top a{
+    position: relative;
+    display: block;
+    width: 90px;
+    height: 60px;
+    text-decoration: none;
+  }
+  #page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f062';
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -25px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+  #page_top a::after{
+    content: '最上部へ';
+    font-size: 13px;
+    color: black;
+    position: absolute;
+    top: 38px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
