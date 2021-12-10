@@ -16,22 +16,48 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
     <!-- drawer.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
     <script integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script> -->
     <!-- cssの表記 -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../index.css">
     <title>TOP</title>
 </head>
 <body> 
+     <!-- ドロワー -->    
+     <div id="page_top"><a href="#"></a></div>
+     <div class="drawer drawer--right">
+         <header role="banner">
+           <button type="button" class="drawer-toggle drawer-hamburger">
+             <span class="sr-only">toggle navigation</span>
+             <span class="drawer-hamburger-icon"></span>
+           </button>
+           <nav class="drawer-nav" id="kiiro" role="navigation">
+             <ul class="drawer-menu">
+               <li class="mannaka"><a class="drawer-brand" href="#">ザックリジーズ</a></li>
+ 
+               <li class="mannaka"><a class="drawer-menu-item" href="../Sotsuken_SDGs2/index.html">TOP</a></li>
+               <li class="mannaka"><a class="drawer-menu-item" href="../Sotsuken_SDGs2/templates/1_1.html">SDGsって何？</a></li>
+               <li class="mannaka"><a class="drawer-menu-item" href="../Sotsuken_SDGs2/templates/1_2.html">SDGsの17の目標</a></li>
+               <li class="mannaka"><a class="drawer-menu-item" href="../Sotsuken_SDGs2/templates/1_3.html">やってみよう<br>~私たちでにできること~</a></li>
+               <li class="mannaka"><a id="ao" class="drawer-menu-item" href="qtop.html">SDGsクイズ</a></li>
+               <li class="mannaka"><a id="aka" class="drawer-menu-item" href="https://forms.gle/h7mscVGShr7xSgMcA">アンケート</a></li>
+             </ul>
+           </nav>
+         </header>
+         <main role="main">
+           <!-- Page content -->
+         </main>
+     </div>
     <section class="section-1">
 
     <div class="top">
 
     </div>
 
-</section>
+    </section>
 
 
     <div class="main-content-wrapper">
@@ -155,7 +181,7 @@
 
         </div><!-- /main-content-wrapper -->
     
-        <script src="index.js"></script>
+        <script src="../index.js"></script>
         <script src="foot.js"></script>
         <script src="kurikku.js"></script>
         <script src="StickyStack.js"></script>
