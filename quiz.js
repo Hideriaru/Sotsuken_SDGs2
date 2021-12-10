@@ -219,7 +219,7 @@ function generate_result_content() {
         ins += '<button class="c-btn2 js-quiz-top">もう一度挑戦</button>';
     ins += '</div>';
     ins += '<div class="p-quiz-next>';
-        ins += '<button class="c-btn2"><a href="a1_1.html">TOPへ</a></button>';
+        ins += '<button class="c-btn2"><a href="index.html">TOPへ</a></button>';
     ins += '</div>';
     ins += '</div>'; 
     document.querySelector('.js-quiz-content').innerHTML = ins;
