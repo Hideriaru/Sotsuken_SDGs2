@@ -1,3 +1,5 @@
+@media screen and (min-width: 481px) {
+
 body{
   background-color: #ffffff;
   margin:0%;
@@ -65,7 +67,7 @@ table{
       content: "";
   }
 
-}
+
 
 
 
@@ -93,9 +95,10 @@ table{
  
 
   #footer{
-    padding-top: 1%;
-    margin-top: 4%;
-    margin-bottom: -55%;
+    padding-top: 2%;
+    margin-top: 20%;
+    margin-bottom: auto;
+    padding-bottom: 20%;
   }
 
 
@@ -126,3 +129,125 @@ h2 {
   background: #EBDF35;
 }
 
+.SUMAHO{
+  display: none;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+  body{
+    background-color: #fffde4;
+    margin:0%;
+    padding-bottom: 500px
+  }
+  
+  table{
+    border-collapse: collapse;
+    border-spacing: -2px;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .sumahotop{
+    height: auto;
+    width: 379px;
+  }
+  
+  .img{
+      height: auto;
+      width: 187.5px;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .img17{
+    height: auto;
+    width: 187.5px;
+    margin: 0%;
+    padding: 0;
+    padding-left: 96px;
+  }
+  
+      /* フッターの記述 */
+      .ooki{
+        font-size: 15px;
+    }
+    #yokonarabi{
+        display: inline;
+    }
+    .ki{
+        background-color: #ebdf35;
+        height: 350px;
+    }
+    .fo{
+        font-size: 35px;
+        margin-top: 0;
+    }
+    .list_triangle {
+        padding: 0px;
+        margin: 5px;
+        list-style: none;
+    }
+    
+    .list_triangle > li {
+        position: relative;
+        padding: 0px 0px 0px 1em;
+    }
+    .list_triangle > li::before {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+        width: 0px;
+        height: 0px;
+        border: 0.3em solid transparent;
+        border-left: 0.4em solid black;
+        content: "";
+    }
+
+  
+  
+  
+  /* ドロワー */
+    .mannaka{
+        text-align: center;
+    }
+    #kiiro{
+        background-color: #ffee00;
+        width: auto;
+    }
+  
+  
+  
+  /* ドロワー、フッターに色をつける */
+    #ao{
+        color: blue;
+    }
+  
+    #aka{
+        color: red;
+    }
+  
+  
+   
+  
+    #footer{
+      padding-top: auto;
+      margin-top: 20%;
+      margin-bottom: -200%;
+      padding-bottom: 100%;
+
+    }
+  
+  
+        /* common */ 
+  
+.PCimg{
+  display: none;
+}
+
+}
