@@ -1,7 +1,9 @@
+@media screen and (min-width: 481px) {
 body{
     margin: 0%;
     overflow-x: hidden;
     z-index: 1;
+    
 }
 
 .top{
@@ -16,6 +18,14 @@ body{
     background-size: cover;
     padding-top: 365%;
     z-index: 1;
+}
+
+.sumahoTop{
+  display: none;
+}
+
+.sumahokizi{
+  display: none;
 }
 
 .text1{
@@ -160,6 +170,13 @@ body{
     top: 720%;
     z-index: 2;
 
+}
+
+.aaa2{
+    position: absolute;
+    top: 720%;
+    z-index: 2;
+    display: none;
 }
 
 .webutton{
@@ -330,3 +347,321 @@ body{
         margin: auto;
         text-align: center;
       }
+}
+
+@media screen and (max-width: 480px) {
+    body{
+      margin:0%;
+      z-index: 1;
+      overflow-x: hidden;
+    }
+  /* .top{
+    background-image: url(../img/8TOP.png);
+    background-size: cover;
+    padding-top: 50%;
+    z-index: 1;
+    display: none;
+    }
+
+  .back{
+    background-image: url(../img/haikei_8_.png);
+    background-size: cover;
+    padding-top: 365%;
+    z-index: 1;
+    display: none;
+  } */
+
+  .sumahoTop{
+    width: 100%;
+    z-index: 1;
+  }
+
+  .sumahokizi{
+    width: 100%;
+    margin-top: -2%;
+    z-index: 1;
+  }
+  .text1{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 40%;
+    height: 100%;
+    padding-top: 68%;
+    padding-left: 15%;
+    text-align: left;
+    font-size: 40%;
+    line-height: 1.8em;
+  }
+  .text2{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 34%;
+    height: 100%;
+    padding-top: 124%;
+    padding-left: 14%;
+    text-align: left;
+    font-size: 31%;
+    line-height: 1.8em;
+  }
+  .title1{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    max-width: 150%;
+    max-height: 100%;
+    padding-top: 218%;
+    padding-left: 14%;
+    text-align: left;
+    font-size: 40%;
+    line-height: 1.8em;
+  }
+  .text3{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 77%;
+    max-height: 100%;
+    padding-top: 170%;
+    padding-left: 14%;
+    text-align: left;
+    font-size: 30%;
+    line-height: 1.8em;
+  }
+  .text4{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 75%;
+    max-height: 100%;
+    padding-top: 222%;
+    padding-left: 14%;
+    text-align: left;
+    font-size: 40%;
+    line-height: 1.8em;
+  }
+  .text5{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 70%;
+    max-height: 100%;
+    padding-top: 318%;
+    padding-left: 14%;
+    text-align: left;
+    font-size: 80%;
+    line-height: 1.8em;
+  }
+  .group{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 70%;
+    max-height: 100%;
+    padding-top: 258%;
+    padding-left: 14%;
+    text-align: left;
+    font-size: 50%;
+    line-height: 2.8em;
+    z-index: 2;
+  }
+    .button{
+      position: absolute;
+      width: auto;
+      height: auto;  
+      top: 151.5%;
+      left: 21%;
+      background-color: white;
+      color: white;
+      font-size: 40%;
+    }
+    .button:hover{
+      background-color:rgb(255, 255, 255);
+      -webkit-box-shadow:inset 0px 0px 3px #000;
+      -moz-box-shadow:inset 0px 0px 3px #000;
+      box-shadow:inset 0px 0px 3px #000;
+  }
+    .button:active{
+      padding-top:6px;
+      padding-bottom:4px;
+      border:1px solid #334C66;
+      background-color:#69c;
+      color:#e0ebf5;
+      -webkit-box-shadow:inset 0px 0px 8px #334C66;
+      -moz-box-shadow:inset 0px 0px 2px #3A6DA0;
+      box-shadow:inset 0px 0px 2px #3A6DA0;
+  }
+
+  .button1{
+    position: absolute;
+    width: auto;
+    height: auto;  
+    top: 657%;
+    left: 42%;
+    background-color: white;
+    color: white;
+    font-size: 300%;
+  }
+
+  .button1:hover{
+    background-color:#ffffff;
+    -webkit-box-shadow:inset 0px 0px 3px #000;
+    -moz-box-shadow:inset 0px 0px 3px #000;
+    box-shadow:inset 0px 0px 3px #000;
+  }
+  .button1:active{
+    padding-top:6px;
+    padding-bottom:4px;
+    border:1px solid #334C66;
+    background-color:#69c;
+    color:#e0ebf5;
+    -webkit-box-shadow:inset 0px 0px 8px #334C66;
+    -moz-box-shadow:inset 0px 0px 2px #3A6DA0;
+    box-shadow:inset 0px 0px 2px #3A6DA0;
+  }
+  .aaa{
+    position: absolute;
+    z-index: 2;
+    top: 720%;
+    display:none;
+  }
+  .aaa2{
+    position: absolute;
+    z-index: 2;
+    top: 162%;
+    margin-left: 10%;
+  }
+  .webutton{
+    position: absolute;
+    z-index: 2;
+    top: 135%;
+    left: 9.8%;
+    height: auto;
+    width: 80%;
+  }
+  /* mousuover */
+  .tooltip { /* 補足説明するテキストのスタイル */
+    position: relative;
+    cursor: pointer;
+    padding: 0 5px;
+    font-size: 0.9em;
+    color: #4682B4;
+    z-index: 3;
+  }
+  .description_top { /* ツールチップのスタイル */
+    width: 160px; /* 横幅 */
+    position: absolute;
+    left: 50%;
+    bottom: 80%; /* Y軸の位置 */
+    transform: translateX(-50%);
+    margin-bottom: 8px; /* テキストとの距離 */
+    padding: 8px;
+    border-radius: 10px; /* 角の丸み */
+    background-color: rgb(255, 255, 255);
+    font-size: 0.7em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    visibility: hidden; /* ツールチップを非表示に */
+    opacity: 0; /* 不透明度を0％に */
+    z-index: 3;
+    transition: 0.5s all; /* マウスオーバー時のアニメーション速度 */
+    border: solid;
+  /* 2.borderの太さを指定する */
+  border: 4px solid;
+  /* 3.borderの色を変更する */
+  border: solid;
+  border-color: #000000;
+  }
+  .tooltip:hover .description_top { /* マウスオーバー時のスタイル */
+    bottom: 100%; /* Y軸の位置 */
+    visibility: visible; /* ツールチップを表示 */
+    opacity: 1; /* 不透明度を100％に */
+    z-index: 3;
+  }
+  .red{
+    color: red;
+  }
+      /* フッターの記述 */
+      .ooki{
+        font-size: 15px;
+    }
+    #yokonarabi{
+        display: inline;
+    }
+    .ki{
+        background-color: #EBDF35;
+        height: auto;
+    }
+    .fo{
+        font-size: 35px;
+        margin-top: 0;
+    }
+    .list_triangle {
+        padding: 0px;
+        margin: 5px;
+        padding-top: -10%;
+        list-style: none;
+    }
+    .list_triangle > li {
+        position: relative;
+        padding: 0px 0px 0px 1em;
+    }
+    .list_triangle > li::before {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+        width: 0px;
+        height: 0px;
+        border: 0.3em solid transparent;
+        border-left: 0.4em solid black;
+        content: "";
+    }
+  }
+  /* ドロワー */
+    .mannaka{
+        text-align: center;
+    }
+    #kiiro{
+        background-color: #EBDF35;
+        width: auto;
+    }
+  /* ドロワー、フッターに色をつける */
+    #ao{
+        color: blue;
+    }
+    #aka{
+        color: red;
+    }
+    /* ドロワー */
+    .mannaka{
+        text-align: center;
+        z-index: 10;
+    }
+    #kiiro{
+        background-color: #EBDF35;
+        width: auto;
+        z-index: 10;
+    }
+    #footer{
+      padding-top: auto;
+      margin-top: -26%;
+      width: 100%;
+      margin-bottom: -90%;
+      padding-bottom: 80%;
+    }
+    .drawer-menu{
+      z-index: 11;
+    }
+    
+    .drawer-menu-item{
+      z-index: 12;
+    }
+
+    .drawer-hamburger-icon,
+    .drawer-hamburger-icon:after,
+    .drawer-hamburger-icon:before {
+      background-color: #ebdf35;
+      padding-left: -60%;
+}
