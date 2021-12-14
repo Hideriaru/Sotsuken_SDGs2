@@ -94,9 +94,9 @@ body{
   }
   #footer{
     background-color: #ebdf35;
-    margin-right: -0.8%;
+    padding-right: 5%;
     margin-left: -0.7%;
-    margin-bottom: 0%;
+    margin-bottom: -0%;
   }
   .fo{
       font-size: 35px;
