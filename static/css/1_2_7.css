@@ -139,12 +139,11 @@
     .button1{
       position: absolute;
       width: auto;
-      height: auto;  
-      top: 659%;
-      left: 55.8%;
+      height: auto; 
       background-color: white;
       color: white;
-      font-size: 277%;
+      font-size: 90%;
+      z-index: 12;
     }
   
     .button1:hover{
@@ -531,8 +530,7 @@
             position: absolute;
             width: auto;
             height: auto;  
-            top: 152%;
-            left: 58.4%;
+           
             background-color: white;
             color: white;
             font-size: 40%;

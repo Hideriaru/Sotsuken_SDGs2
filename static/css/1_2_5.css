@@ -140,11 +140,12 @@
       position: absolute;
       width: auto;
       height: auto;  
-      top: 644%;
-      left: 41.1%;
+      /* top: 644%;
+      left: 41.1%; */
       background-color: white;
       color: white;
-      font-size: 277%;
+      font-size: 90%;
+      z-index: 12;
     }
   
     .button1:hover{
@@ -171,11 +172,12 @@
     position: absolute;
     width: auto;
     height: auto;  
-    top: 656%;
-    left: 50%;
+    /* top: 656%;
+    left: 50%; */
     background-color: white;
     color: white;
-    font-size: 277%;
+    font-size: 90%;
+    z-index: 12;
   }
   
   .button2:hover{
@@ -531,8 +533,8 @@
             position: absolute;
             width: auto;
             height: auto;  
-            top: 148.5%;
-            left: 41.8%;
+            /* top: 148.5%;
+            left: 41.8%; */
             background-color: white;
             color: white;
             font-size: 40%;
@@ -562,8 +564,8 @@
           position: absolute;
           width: auto;
           height: auto;  
-          top: 151.5%;
-          left: 59%;
+          /* top: 151.5%;
+          left: 59%; */
           background-color: white;
           color: white;
           font-size: 40%;
