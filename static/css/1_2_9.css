@@ -113,11 +113,10 @@ body{
      position: absolute;
      width: auto;
      height: auto;  
-     top: 657%;
-     left: 23%;
      background-color: white;
      color: white;
-     font-size: 300%;
+     font-size: 90%;
+     z-index: 12;
    }
  
  
@@ -142,11 +141,10 @@ body{
      position: absolute;
      width: auto;
      height: auto;  
-     top: 657%;
-     left: 42%;
      background-color: white;
      color: white;
-     font-size: 300%;
+     font-size: 90%;
+     z-index: 12;
    }
  
    .button1:hover{
@@ -500,8 +498,7 @@ body{
         position: absolute;
         width: auto;
         height: auto;  
-        top: 151.5%;
-        left: 20%;
+        
         background-color: white;
         color: white;
         font-size: 40%;
@@ -527,8 +524,7 @@ body{
       position: absolute;
       width: auto;
       height: auto;  
-      top: 151.5%;
-      left: 41%;
+    
       background-color: white;
       color: white;
       font-size: 40%;
