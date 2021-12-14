@@ -125,11 +125,10 @@ body{
     position: absolute;
     width: auto;
     height: auto;  
-    top: 648.9%;
-    left: 26.8%;
     background-color: white;
     color: white;
-    font-size: 320%;
+    font-size: 90%;
+    z-index: 12;
   }
 
   .button1:hover{
