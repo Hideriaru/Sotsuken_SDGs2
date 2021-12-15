@@ -13,6 +13,7 @@
       font-size: 20px;
       text-align: center;
       cursor:context-menu;/* マウスカーソルを矢印のまま変えない */
+      
   }
   .font{
       color: white;
