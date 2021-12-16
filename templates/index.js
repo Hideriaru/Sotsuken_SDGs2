@@ -1,3 +1,5 @@
 $(document).ready(function() {
-    $('.drawer').drawer();
-  });
+
+  $('.drawer').drawer();
+});
+

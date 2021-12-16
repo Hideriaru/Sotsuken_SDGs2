@@ -1,91 +1,30 @@
+@media screen and (min-width: 481px) {
 body{
-  overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: violet;
+
 }
-
-.box{
-    position: relative;
-    width: 1354.8px;
-    height: 4110px;
-    margin: -1%;
-  }
-
-.style1{
-    position: absolute;
-    top: 0; 
-    left: 0;
-    max-width: 150%; 
-    max-height: 100%; 
-    padding: 170px; 
-    padding-top: 88%;
-    text-align: left;
-    font-size: 175%;
-} 
-
-.style2{
-  position: absolute;
-  top: 0; 
-  left: 0;
-  max-width: 150%; 
-  max-height: 100%; 
-  padding: 170px; 
-  padding-top: 157%;
-  text-align: left;
-  font-size: 175%;
-} 
-
-.style3{
-  position: absolute;
-  top: 0; 
-  left: 0;
-  max-width: 150%; 
-  max-height: 100%; 
-  padding: 170px; 
-  padding-top: 243%;
-  text-align: left;
-  font-size: 150%;
+.waku{
+    display: block;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    width: 1200px;;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 50px;
 }
-
-.style4{
-  position: absolute;
-  top: 0; 
-  left: 0;
-  max-width: 150%; 
-  max-height: 100%; 
-  padding: 170px; 
-  padding-top: 247%;
-  text-align: left;
-  font-size: 100%;
-} 
-
-.style5{
-  position: absolute;
-  top: 0; 
-  left: 0;
-  max-width: 150%; 
-  max-height: 100%; 
-  padding: 170px; 
-  padding-top: 253%;
-  text-align: left;
-  font-size: 175%;
-} 
-
-.text{
-  position: absolute;
-  top: 523%;
-  right: 30%;
+.ao{
+    background-color: skyblue;
 }
-
-.webutton{
-  position: absolute;
-  z-index: 3;
-  top: 595%;
-  left: 9.8%;
-  height: auto;
-  width: 80%;
+.nani1{
+    width: 100%;
+    background-repeat: no-repeat ;
 }
 
     /* フッターの記述 */
-    .ooki{
+.ooki{
       font-size: 30px;
   }
   #yokonarabi{
@@ -93,9 +32,9 @@ body{
   }
   #footer{
     background-color: #ebdf35;
-    margin-right: -0.8%;
+    padding-right: 5%;
     margin-left: -0.7%;
-    margin-bottom: 0%;
+    margin-bottom: -0%;
   }
   .fo{
       font-size: 35px;
@@ -200,3 +139,209 @@ body{
     margin: auto;
     text-align: center;
   }
+.ic1{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+    .ooki{
+        font-size: 30px;
+    }
+    #yokonarabi{
+        display: inline;
+    }
+    .ki{
+        background-color: #ebdf35;
+        height: 350px;
+    }
+    .fo{
+        font-size: 35px;
+        margin-top: 0;
+    }
+    .list_triangle {
+        padding: 0px;
+        margin: 5px;
+        list-style: none;
+    }
+    
+    .list_triangle > li {
+        position: relative;
+        padding: 0px 0px 0px 1em;
+    }
+    .list_triangle > li::before {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+        width: 0px;
+        height: 0px;
+        border: 0.3em solid transparent;
+        border-left: 0.4em solid black;
+        content: "";
+}
+
+.deki{
+    display: block;
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+.font{
+    font-size: 30px;
+    width: 70%;
+    margin: auto;
+}
+.font2{
+    font-size: 15px;
+    width: 70%;
+    margin: auto;
+}
+.font3{
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.seventeen{
+    margin: auto;
+    display: block;
+}
+.nihon{
+    margin: auto;
+    display: block;
+}
+}@media screen and (max-width: 480px) {
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: violet;
+    
+    }
+    .ao{
+        background-color: skyblue;
+    }
+    .nani1{
+        width: 100%;
+        background-repeat: no-repeat ;
+    }
+    .waku{
+        display: block;
+        margin: auto;
+        background-color: white;
+        border-radius: 10px;
+        width: 350px;;
+    }
+    .ic1{
+        width: 60%;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+    
+    .ooki{
+        font-size: 15px;
+    }
+    .ki{
+        background-color: #ebdf35;
+        height: 300px;
+    }
+    #ao{
+        color: blue;
+    }
+
+    #aka{
+        color: red;
+    }
+    .fo{
+        font-size: 28px;
+        margin-top: 0;
+    }
+
+    .list_triangle {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+    }
+    
+    .list_triangle > li {
+        position: relative;
+        padding: 0px 0px 0px 1em;
+    }
+    .list_triangle > li::before {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+        width: 0px;
+        height: 0px;
+        border: 0.3em solid transparent;
+        border-left: 0.4em solid black;
+        content: "";
+    }
+    
+    .deki{
+        display: block;
+        width: 75%;
+        height: auto;
+        margin: auto;
+    }
+    .font{
+        font-size: 20px;
+        width: 70%;
+        margin: auto;
+    }
+    .font2{
+        font-size: 15px;
+        width: 70%;
+        margin: auto;
+    }
+    .font3{
+        font-size: 20px;
+        width: 70%;
+        margin: auto;
+    }#kiiro{
+        background-color: #ebdf35;
+        width: auto;
+    }
+    
+    .seventeen{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        display: block;
+        
+    }
+    .nihon{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+    .husen{
+        width: 40%;
+        /* height: auto;
+        margin: auto;
+        display: block; */
+    }
+
+    
+
+    
+
+
+}.drawer-menu{
+        z-index: 11;
+      }
+
+      .drawer-menu-item{
+        z-index: 12;
+      }
+
+
+      .drawer-hamburger-icon,
+      .drawer-hamburger-icon:after,
+      .drawer-hamburger-icon:before {
+        background-color: #ebdf35;
+      }

@@ -1,31 +1,47 @@
+@media screen and (min-width: 481px) {
+
 body{
+  position: relative;
   background-color: #ffffff;
   margin:0%;
-  padding-bottom: 500px
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 table{
+  position: relative;
   border-collapse: collapse;
   border-spacing: -2px;
+  top: 7.9%
 }
-
-.top{
-  background-image: url(../img/TOP1-2.png);
-  background-size: cover;
-  padding-top: 48%;
-  }
 
 .img{
-    width: 674px;
-    height: 690px;
-  margin: 0%;
+  position: relative;
+    width: 75%;
+    height: auto;
+  line-height: 12%;
+  margin: auto;
+  margin-left: 12%;
+  border: 15px;
+  border-style: ridge;
+  border-color: papayawhip;
 }
 
+
 .img17{
-  width: 674px;
-  height: 690px;
-  margin: 0%;
-  padding-left: 337px;
+  position: relative;
+  width: 40%;
+  height: auto;
+  margin: auto;
+
+  margin-left: auto;
+  margin-left: 28.5%;
+
+  border: 15px;
+  border-style: ridge;
+  border-color: papayawhip;
 }
 
     /* フッターの記述 */
@@ -37,7 +53,7 @@ table{
   }
   .ki{
       background-color: #ebdf35;
-      height: 350px;
+      height: auto;
   }
   .fo{
       font-size: 35px;
@@ -64,48 +80,13 @@ table{
       border-left: 0.4em solid black;
       content: "";
   }
-
-}
-
-
-
-/* ドロワー */
-  .mannaka{
-      text-align: center;
-  }
-  #kiiro{
-      background-color: #ebdf35;
-      width: auto;
-  }
-
-
-
-/* ドロワー、フッターに色をつける */
-  #ao{
-      color: blue;
-  }
-
-  #aka{
-      color: red;
-  }
-
-
  
 
   #footer{
-    padding-top: 1%;
-    margin-top: 4%;
-    margin-bottom: -55%;
+ z-index: 12;
+ height: auto;
+ width: auto;
   }
-
-
-      /* common */ 
-section {
-  display: block;
-  width: 100%;
-  height: 100vh;
-  position: relative;
-}
 
 h2 {
   width: 100%;
@@ -118,11 +99,289 @@ h2 {
 }
 
 
-.section-10 {
-  background: #ffffff;
+.drawer-toggle{
+z-index: 12;
+position: absolute;
 }
 
-.section-11 {
-  background: #EBDF35;
+.drawer-hamburger{
+  z-index: 12;
+  position: absolute;
 }
 
+.SUMAHO{
+  display: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+/* 簡易リセットCSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.PCTOP{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* スライダー全体 */
+.vertical-slider {
+  width: 100%;
+  height: 100%;
+  height: calc(var(--vh, 1vh) * 100);
+  z-index: 2;
+  position: relative;
+}
+
+/* スライド */
+.vertical-slider__slide {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+
+/* 1枚目のスライド */
+.vertical-slider__slide1:nth-child(1) {
+  background-color: #f03134;
+  position: relative;
+}
+
+/* 2枚目のスライド */
+.vertical-slider__slide:nth-child(2) {
+  background-color: #f03134;
+  position: relative;
+}
+
+/* 3枚目のスライド */
+.vertical-slider__slide:nth-child(3) {
+  background-color: #1fd6f6;
+  position: relative;
+}
+
+/* 4枚目のスライド */
+.vertical-slider__slide:nth-child(4) {
+  background-color: #f6a01f;
+  position: relative;
+}
+
+/* 5枚目のスライド */
+.vertical-slider__slide:nth-child(5) {
+  background-color: #f0ea32;
+  position: relative;
+}
+
+.vertical-slider__slide:nth-child(6) {
+  background-color: #d248c2;
+  position: relative;
+}
+
+.vertical-slider__slide:nth-child(7) {
+  background-color: #fca132;
+  position: relative;
+}
+
+.vertical-slider__slide:nth-child(8) {
+  background-color: #4e4ee1;
+  position: relative;
+}
+
+.vertical-slider__slide:nth-child(9) {
+  background-color: #3bbf2c;
+  position: relative;
+}
+
+.vertical-slider__slide:nth-child(10) {
+  background-color: #161980;
+  position: relative;
+}
+
+.vertical-slider__slide2:nth-child(11) {
+  background-color: #ebdf35;
+  position: relative;
+}
+
+/* SP時の文字サイズ調整 */
+/* @media (max-width: 599px) {
+  .vertical-slider__slide {
+    font-size: 16vw;
+  }
+} 
+
+.drawer-hamburger-icon,
+.drawer-hamburger-icon:after,
+.drawer-hamburger-icon:before {
+    background-color: #ebdf35;
+    z-index: 10;
+}
+
+
+ /* ドロワー */
+ .mannaka{
+  text-align: center;
+}
+#kiiro{
+  background-color: #ebdf35;
+  width: auto;
+}
+
+
+
+/* ドロワー、フッターに色をつける */
+#ao{
+  color: blue;
+}
+
+#aka{
+  color: red;
+}
+
+
+/* ドロワー */
+.mannaka{
+  text-align: center;
+  z-index: 20;
+}
+#kiiro{
+  background-color: #ebdf35;
+  width: auto;
+  z-index: 20;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+body{
+  background-color: #ebdf35;
+  
+}
+  
+.PCimg{
+  display: none;
+}
+
+.swiper-pagination-bullet,.swiper-pagination-bullet-active{
+  display: none;
+}
+
+.swiper-pagination,.vertical-slider__pagination,.swiper-pagination-clickable,.swiper-pagination-bullets,.swiper-pagination-vertical{
+  display: none;
+}
+
+.sumahotop{
+  width: 100%;
+}
+
+
+   /* フッターの記述 */
+   .ooki{
+    font-size: 35px;
+}
+#yokonarabi{
+    display: inline;
+}
+.ki{
+    background-color: #ebdf35;
+    height: auto;
+}
+.fo{
+    font-size: 35px;
+    margin-top: 0;
+}
+.list_triangle {
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+}
+
+.list_triangle > li {
+    position: relative;
+    padding: 0px 0px 0px 1em;
+}
+.list_triangle > li::before {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 0px;
+    height: 0px;
+    border: 0.3em solid transparent;
+    border-left: 0.4em solid black;
+    content: "";
+}
+
+  /* ドロワー */
+  .mannaka{
+    text-align: center;
+}
+#kiiro{
+    background-color: #ebdf35;
+    width: auto;
+}
+
+
+
+/* ドロワー、フッターに色をつける */
+#ao{
+    color: blue;
+}
+
+#aka{
+    color: red;
+}
+
+
+/* ドロワー */
+.mannaka{
+    text-align: center;
+    z-index: 10;
+}
+#kiiro{
+    background-color: #ebdf35;
+    width: auto;
+    z-index: 10;
+}
+
+.img{
+width: 100%;
+height: auto;
+
+}
+
+.img17{
+width: 100%;
+height: auto;
+
+}
+
+#footer{
+z-index: 12;
+height: auto;
+width: auto;
+}
+
+
+}
+
+
+.drawer-hamburger-icon,
+.drawer-hamburger-icon:after,
+.drawer-hamburger-icon:before {
+    background-color: #ebdf35;
+}
