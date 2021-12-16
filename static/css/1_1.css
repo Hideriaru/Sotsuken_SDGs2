@@ -1,89 +1,18 @@
 @media screen and (min-width: 481px) {
 body{
-  overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: violet;
+
 }
-
-.box{
-    position: relative;
-    width: 1354.8px;
-    height: 4110px;
-    margin: -1%;
-  }
-
-.style1{
-    position: absolute;
-    top: 0; 
-    left: 0;
-    max-width: 150%; 
-    max-height: 100%; 
-    padding: 170px; 
-    padding-top: 88%;
-    text-align: left;
-    font-size: 175%;
-} 
-
-.style2{
-  position: absolute;
-  top: 0; 
-  left: 0;
-  max-width: 150%; 
-  max-height: 100%; 
-  padding: 170px; 
-  padding-top: 157%;
-  text-align: left;
-  font-size: 175%;
-} 
-
-.style3{
-  position: absolute;
-  top: 0; 
-  left: 0;
-  max-width: 150%; 
-  max-height: 100%; 
-  padding: 170px; 
-  padding-top: 243%;
-  text-align: left;
-  font-size: 150%;
+.ao{
+    background-color: skyblue;
 }
-
-.style4{
-  position: absolute;
-  top: 0; 
-  left: 0;
-  max-width: 150%; 
-  max-height: 100%; 
-  padding: 170px; 
-  padding-top: 247%;
-  text-align: left;
-  font-size: 100%;
-} 
-
-.style5{
-  position: absolute;
-  top: 0; 
-  left: 0;
-  max-width: 150%; 
-  max-height: 100%; 
-  padding: 170px; 
-  padding-top: 253%;
-  text-align: left;
-  font-size: 175%;
-} 
-
-.text{
-  position: absolute;
-  top: 523%;
-  right: 30%;
+.nani1{
+    width: 100%;
+    background-repeat: no-repeat ;
 }
-
-.webutton{
-  position: absolute;
-  z-index: 3;
-  top: 595%;
-  left: 9.8%;
-  height: auto;
-  width: 80%;
-}
+.waku{
 
     /* フッターの記述 */
     .ooki{
@@ -169,243 +98,194 @@ body{
   #page_top a{
     position: relative;
     display: block;
-    width: 90px;
-    height: 60px;
-    text-decoration: none;
-  }
-  #page_top a::before{
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    content: '\f062';
-    font-size: 25px;
-    color: black;
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    top: -25px;
-    bottom: 0;
-    right: 0;
-    left: 0;
     margin: auto;
-    text-align: center;
-  }
-  #page_top a::after{
-    content: '最上部へ';
-    font-size: 13px;
-    color: black;
-    position: absolute;
-    top: 38px;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    background-color: white;
+    border-radius: 10px;
+    width: 1200px;;
+}
+.ic1{
+    width: 50%;
+    height: auto;
     margin: auto;
-    text-align: center;
-  }
+    display: block;
 }
 
-@media screen and (max-width: 480px) {
-  body{
-    margin:0%;
-    z-index: 1;
-    overflow-x: hidden;
-  }
-
-.box{
-  width: 100%;
-  z-index: 1;
-}
-
-.style1{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 70%;
-  height: 100%;
-  padding-top: 90%;
-  padding-left: 15%;
-  text-align: left;
-  font-size: 30%;
-  line-height: 1.8em;
-}
-.style2{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 70%;
-  height: 100%;
-  padding-top: 159%;
-  padding-left: 14%;
-  text-align: left;
-  font-size: 31%;
-  line-height: 1.8em;
-}
-.style3{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 77%;
-  max-height: 100%;
-  padding-top: 246.5%;
-  padding-left: 14%;
-  text-align: left;
-  font-size: 5%;
-  line-height: 1.8em;
-}
-.style4{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 77%;
-  max-height: 100%;
-  padding-top: 249%;
-  padding-left: 12%;
-  text-align: left;
-  font-size: 6%;
-  line-height: 7em;
-}
-.style5{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 70%;
-  max-height: 100%;
-  padding-top: 260%;
-  padding-left: 14%;
-  text-align: left;
-  font-size: 31%;
-  line-height: 1.8em;
-}
-
-.webutton{
-  position: absolute;
-  z-index: 2;
-  top: 135%;
-  left: 9.8%;
-  height: auto;
-  width: 80%;
-}
-/* mousuover */
-.tooltip { /* 補足説明するテキストのスタイル */
-  position: relative;
-  cursor: pointer;
-  padding: 0 5px;
-  font-size: 0.9em;
-  color: #4682B4;
-  z-index: 3;
-}
-.description_top { /* ツールチップのスタイル */
-  width: 160px; /* 横幅 */
-  position: absolute;
-  left: 50%;
-  bottom: 80%; /* Y軸の位置 */
-  transform: translateX(-50%);
-  margin-bottom: 8px; /* テキストとの距離 */
-  padding: 8px;
-  border-radius: 10px; /* 角の丸み */
-  background-color: rgb(255, 255, 255);
-  font-size: 0.7em;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  visibility: hidden; /* ツールチップを非表示に */
-  opacity: 0; /* 不透明度を0％に */
-  z-index: 3;
-  transition: 0.5s all; /* マウスオーバー時のアニメーション速度 */
-  border: solid;
-/* 2.borderの太さを指定する */
-border: 4px solid;
-/* 3.borderの色を変更する */
-border: solid;
-border-color: #000000;
-}
-.tooltip:hover .description_top { /* マウスオーバー時のスタイル */
-  bottom: 100%; /* Y軸の位置 */
-  visibility: visible; /* ツールチップを表示 */
-  opacity: 1; /* 不透明度を100％に */
-  z-index: 3;
-}
-.red{
-  color: red;
-}
-    /* フッターの記述 */
     .ooki{
-      font-size: 15px;
-  }
-  #yokonarabi{
-      display: inline;
-  }
-  .ki{
-      background-color: #EBDF35;
-      height: auto;
-  }
-  .fo{
-      font-size: 35px;
-      margin-top: 0;
-  }
-  .list_triangle {
-      padding: 0px;
-      margin: 5px;
-      padding-top: -10%;
-      list-style: none;
-  }
-  .list_triangle > li {
-      position: relative;
-      padding: 0px 0px 0px 1em;
-  }
-  .list_triangle > li::before {
-      position: absolute;
-      top: 50%;
-      left: 10px;
-      transform: translateY(-50%);
-      width: 0px;
-      height: 0px;
-      border: 0.3em solid transparent;
-      border-left: 0.4em solid black;
-      content: "";
-  }
+        font-size: 30px;
+    }
+    #yokonarabi{
+        display: inline;
+    }
+    .ki{
+        background-color: #ebdf35;
+        height: 350px;
+    }
+    .fo{
+        font-size: 35px;
+        margin-top: 0;
+    }
+    .list_triangle {
+        padding: 0px;
+        margin: 5px;
+        list-style: none;
+    }
+    
+    .list_triangle > li {
+        position: relative;
+        padding: 0px 0px 0px 1em;
+    }
+    .list_triangle > li::before {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+        width: 0px;
+        height: 0px;
+        border: 0.3em solid transparent;
+        border-left: 0.4em solid black;
+        content: "";
 }
-/* ドロワー */
-  .mannaka{
-      text-align: center;
-  }
-  #kiiro{
-      background-color: #EBDF35;
-      width: auto;
-  }
-/* ドロワー、フッターに色をつける */
-  #ao{
-      color: blue;
-  }
-  #aka{
-      color: red;
-  }
-  /* ドロワー */
-  .mannaka{
-      text-align: center;
-      z-index: 10;
-  }
-  #kiiro{
-      background-color: #EBDF35;
-      width: auto;
-      z-index: 10;
-  }
-  #footer{
-    padding-top: auto;
-    margin-top: -3%;
-    width: 100%;
-    margin-bottom: -90%;
-    padding-bottom: 80%;
-  }
-  .drawer-menu{
-    z-index: 11;
-  }
-  
-  .drawer-menu-item{
-    z-index: 12;
-  }
 
-  .drawer-hamburger-icon,
-  .drawer-hamburger-icon:after,
-  .drawer-hamburger-icon:before {
-    background-color: #ebdf35;
-    padding-left: -60%;
-  }
+.deki{
+    display: block;
+    width: 75%;
+    height: auto;
+    margin: auto;
+}
+.font{
+    font-size: 30px;
+    width: 70%;
+    margin: auto;
+}
+.font2{
+    font-size: 15px;
+    width: 70%;
+    margin: auto;
+}
+.font3{
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.seventeen{
+    margin: auto;
+    display: block;
+}
+.nihon{
+    margin: auto;
+    display: block;
+}
+}@media screen and (max-width: 480px) {
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: violet;
+    
+    }
+    .ao{
+        background-color: skyblue;
+    }
+    .nani1{
+        width: 100%;
+        background-repeat: no-repeat ;
+    }
+    .waku{
+        display: block;
+        margin: auto;
+        background-color: white;
+        border-radius: 10px;
+        width: 350px;;
+    }
+    .ic1{
+        width: 60%;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+    
+        .ooki{
+            font-size: 30px;
+        }
+        #yokonarabi{
+            display: inline;
+        }
+        .ki{
+            background-color: #ebdf35;
+            height: 350px;
+        }
+        .fo{
+            font-size: 35px;
+            margin-top: 0;
+        }
+        .list_triangle {
+            padding: 0px;
+            margin: 5px;
+            list-style: none;
+        }
+        
+        .list_triangle > li {
+            position: relative;
+            padding: 0px 0px 0px 1em;
+        }
+        .list_triangle > li::before {
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            transform: translateY(-50%);
+            width: 0px;
+            height: 0px;
+            border: 0.3em solid transparent;
+            border-left: 0.4em solid black;
+            content: "";
+    }
+    
+    .deki{
+        display: block;
+        width: 75%;
+        height: auto;
+        margin: auto;
+    }
+    .font{
+        font-size: 20px;
+        width: 70%;
+        margin: auto;
+    }
+    .font2{
+        font-size: 15px;
+        width: 70%;
+        margin: auto;
+    }
+    .font3{
+        font-size: 20px;
+        width: 70%;
+        margin: auto;
+    }
+    
+    .seventeen{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        display: block;
+        
+    }
+    .nihon{
+        width: 80%;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+    .husen{
+        width: 40%;
+        /* height: auto;
+        margin: auto;
+        display: block; */
+    }
+
+    
+
+
+
+
+
+}
