@@ -68,7 +68,11 @@
       width: 1200px;;
   }
   .ic1{
+<<<<<<< HEAD
+      width: 200%;
+=======
       width: 130%;
+>>>>>>> origin/master
       height: auto;
       /* margin: 0;
       padding: 0; */
@@ -660,9 +664,13 @@
          
          /*========= レイアウトのためのCSS ===============*/
          
+<<<<<<< HEAD
+         
+=======
          body{
            background:#eee;
          }
+>>>>>>> origin/master
          
          h2,p {
              text-align:center;
