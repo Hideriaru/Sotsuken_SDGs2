@@ -208,6 +208,7 @@
     .pi2{
         width: 40vw;
         height: 30vh;
+        display: none;
     }
     .pi3{
         display: block;
