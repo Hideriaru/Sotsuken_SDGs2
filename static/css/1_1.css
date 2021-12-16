@@ -13,6 +13,90 @@ body{
     background-repeat: no-repeat ;
 }
 .waku{
+
+    /* フッターの記述 */
+    .ooki{
+      font-size: 30px;
+  }
+  #yokonarabi{
+      display: inline;
+  }
+  #footer{
+    background-color: #ebdf35;
+    padding-right: 5%;
+    margin-left: -0.7%;
+    margin-bottom: -0%;
+  }
+  .fo{
+      font-size: 35px;
+      margin-top: 0;
+  }
+  .list_triangle {
+      padding: 0px;
+      margin: -5px;
+      list-style: none;
+  }
+  
+  .list_triangle > li {
+      position: relative;
+      padding: 0px 0px 0px 1em;
+  }
+  .list_triangle > li::before {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      width: 0px;
+      height: 0px;
+      border: 0.3em solid transparent;
+      border-left: 0.4em solid black;
+      content: "";
+  }
+
+
+/* ドロワー */
+  .mannaka{
+      text-align: center;
+  }
+  #kiiro{
+      background-color: #ebdf35;
+      width: auto;
+  }
+
+
+
+/* ドロワー、フッターに色をつける */
+  #ao{
+      color: blue;
+  }
+
+  #aka{
+      color: red;
+  }
+
+
+  /* ドロワー */
+  .mannaka{
+      text-align: center;
+  }
+  #kiiro{
+      background-color: #ebdf35;
+      width: auto;
+  }
+
+  #page_top{
+    width: 90px;
+    height: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+    border: 3px solid black;
+    border-radius: 15px;
+    z-index: 10;
+  }
+  #page_top a{
+    position: relative;
     display: block;
     margin: auto;
     background-color: white;
