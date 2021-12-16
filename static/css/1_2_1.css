@@ -1,338 +1,31 @@
 @media screen and (min-width: 481px) {
-
-body{
-    margin:0%;
-    z-index: 1;
-    overflow-x: hidden;
-  }
-
-.sumahotop{
-  display: none;
-}
-
-.kiziimg{
-  display: none;
-}
-
-.top{
-  background-image: url(../img/1TOP.png);
-  background-size: cover;
-  padding-top: 50%;
-  z-index: 1;
-  }
-
-.back{
-  background-image: url(../img/haikei_1.png);
-  background-size: cover;
-  padding-top: 365%;
-  z-index: 1;
-}
-
-.text1{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 40%;
-  height: 100%;
-  padding: 170px;
-  padding-top: 61%;
-  padding-left: 15%;
-  text-align: left;
-  font-size: 145%;
-  line-height: 1.8em;
-}
-
-.text2{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 34%;
-  height: 100%;
-  padding: 170px;
-  padding-top: 123%;
-  padding-right: 18%;
-  padding-left: -1%;
-  text-align: left;
-  font-size: 145%;
-  line-height: 1.8em;
-}
-
-.title1{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  max-width: 150%;
-  max-height: 100%;
-  padding: 170px;
-  padding-top: 210%;
-  padding-left: 14%;
-  text-align: left;
-  font-size: 212%;
-  line-height: 1.8em;
-}
-
-.text3{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  max-width: 150%;
-  max-height: 100%;
-  padding: 170px;
-  padding-top: 216%;
-  padding-left: 14%;
-  text-align: left;
-  font-size: 145%;
-  line-height: 1.8em;
-}
-
-/* 確認問題 */
-
-.text4{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  max-width: 150%;
-  max-height: 100%;
-  padding: 170px;
-  padding-top: 310%;
-  padding-left: 14%;
-  text-align: left;
-  font-size: 300%;
-  line-height: 1.8em;
-}
-
-
-.text5{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  max-width: auto;
-  max-height: 100%;
-  padding: 170px;
-  padding-top: 330%;
-  padding-left: 50%;
-  text-align: left;
-  font-size: 140%;
-  line-height: 1.8em;
-  color: red;
-}
-
-
-
-.group{
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  max-width: 150%;
-  max-height: 100%;
-  padding: 170px;
-  padding-top: 253%;
-  padding-left: 14%;
-  text-align: left;
-  font-size: 170%;
-  line-height: 2.8em;
-  z-index: 2;
-}
-
-
-
-  .button1{
-    position: absolute;
-    width: auto;
-    height: auto;  
-    /* top: 644%;
-    left: 45.8%; */
-    background-color: white;
-    color: white;
-    font-size: 90%;
-    z-index: 12;
-  }
-
-  .button1:hover{
-    background-color:rgb(255, 255, 255);
-    -webkit-box-shadow:inset 0px 0px 3px #000;
-    -moz-box-shadow:inset 0px 0px 3px #000;
-    box-shadow:inset 0px 0px 3px #000;
-}
-  .button1:active{
-    padding-top:6px;
-    padding-bottom:4px;
-    border:1px solid #334c66;
-    background-color:#69c;
-    color:#e0ebf5;
-    -webkit-box-shadow:inset 0px 0px 8px #334c66;
-    -moz-box-shadow:inset 0px 0px 2px #3a6da0;
-    box-shadow:inset 0px 0px 2px #3a6da0;
-}
-
-
-
-
-.button2{
-  position: absolute;
-  width: auto;
-  height: auto;  
-  /* top: 644%;
-  left: 63.8%; */
-  background-color: white;
-  color: white;
-  font-size: 90%;
-  z-index: 12;
-}
-
-.button2:hover{
-  background-color:rgb(255, 255, 255);
-  -webkit-box-shadow:inset 0px 0px 3px #000;
-  -moz-box-shadow:inset 0px 0px 3px #000;
-  box-shadow:inset 0px 0px 3px #000;
-}
-.button2:active{
-  padding-top:6px;
-  padding-bottom:4px;
-  border:1px solid #334c66;
-  background-color:#69c;
-  color:#e0ebf5;
-  -webkit-box-shadow:inset 0px 0px 8px #334c66;
-  -moz-box-shadow:inset 0px 0px 2px #3a6da0;
-  box-shadow:inset 0px 0px 2px #3a6da0;
-}
-
-.aaa{
-  position: absolute;
-  z-index: 2;
-  top: 720%;
-
-}
-
-.aaa2{
-  position: absolute;
-  z-index: 2;
-  top: 720%;
-  display: none;
-}
-
-.webutton{
-  position: absolute;
-  z-index: 2;
-  top: 585%;
-  left: 9.8%;
-  height: auto;
-  width: 80%;
-}
-
-/* mousuover */
-
-.tooltip { /* 補足説明するテキストのスタイル */
-  position: relative;
-  cursor: pointer;
-  padding: 0 5px;
-  font-size: 0.9em;
-  color: #4682b4;
-  z-index: 3;
-}
- 
-.description_top { /* ツールチップのスタイル */
-  width: 320px; /* 横幅 */
-  position: absolute;
-  left: 50%;
-  bottom: 80%; /* Y軸の位置 */
-  transform: translateX(-50%);
-  margin-bottom: 8px; /* テキストとの距離 */
-  padding: 8px;
-  border-radius: 10px; /* 角の丸み */
-  background-color: rgb(255, 255, 255);
-  font-size: 0.7em;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  visibility: hidden; /* ツールチップを非表示に */
-  opacity: 0; /* 不透明度を0％に */
-  z-index: 3;
-  transition: 0.5s all; /* マウスオーバー時のアニメーション速度 */
-  border: solid;
-/* 2.borderの太さを指定する */
-
-border: 4px solid;
-/* 3.borderの色を変更する */
-
-border: solid;
-border-color: #000000;
-}
- 
-.tooltip:hover .description_top { /* マウスオーバー時のスタイル */
-  bottom: 100%; /* Y軸の位置 */
-  visibility: visible; /* ツールチップを表示 */
-  opacity: 1; /* 不透明度を100％に */
-  z-index: 3;
-}
-
-.red{
-  color: red;
-}
-
-
-
-    /* フッターの記述 */
-    .ooki{
-      font-size: 30px;
-  }
-  #yokonarabi{
-      display: inline;
-  }
-  .ki{
-      background-color: #ebdf35;
-      height: 350px;
-  }
-  .fo{
-      font-size: 35px;
-      margin-top: 0;
-  }
-  .list_triangle {
-      padding: 0px;
-      margin: 5px;
-      list-style: none;
-  }
-  
-  .list_triangle > li {
-      position: relative;
-      padding: 0px 0px 0px 1em;
-  }
-  .list_triangle > li::before {
-      position: absolute;
-      top: 50%;
-      left: 10px;
-      transform: translateY(-50%);
-      width: 0px;
-      height: 0px;
-      border: 0.3em solid transparent;
-      border-left: 0.4em solid black;
-      content: "";
-  }
-
-}
-
-
-
-/* ドロワー */
-  .mannaka{
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: violet;
+    
+    }
+     /* ドロワー */
+     .mannaka{
       text-align: center;
   }
   #kiiro{
       background-color: #ebdf35;
       width: auto;
   }
-
-
-
-/* ドロワー、フッターに色をつける */
+  
+  
+  
+  /* ドロワー、フッターに色をつける */
   #ao{
       color: blue;
   }
-
+  
   #aka{
       color: red;
   }
-
-
+  
+  
   /* ドロワー */
   .mannaka{
       text-align: center;
@@ -343,15 +36,130 @@ border-color: #000000;
       width: auto;
       z-index: 10;
   }
+    .ao{
+        background-color: skyblue;
+    }
+    .yell{
+        background-color:#ebdf35;
+        padding-bottom: 30px;
+    }
+    .nani1{
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat ;
+    }
+    .waku{
+        display: block;
+        margin: auto;
+        background-color: white;
+        border-radius: 10px;
+        width: 1200px;;
+        display: flex;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-right: 100px;
+    }
+    .waku2{
+        display: block;
+        
+        margin: auto;
+        background-color: white;
+        border-radius: 10px;
+        width: 1200px;;
+    }
+    .ic1{
+        width: 130%;
+        height: auto;
+        /* margin: 0;
+        padding: 0; */
+        overflow: hidden;
+        padding-left: 50px;
+        position: relative;
+        display: block;
+    }
+    .ic2{
+        width: 280%;
+        height: auto;
+        /* margin: 0;
+        padding: 0; */
+        overflow: hidden;
+        position: relative;
+        display: block;
+        padding-left: 50px;
+    }
+    .ic3{
+        width:80%;
+        height: auto;
+        /* margin: 0;
+        padding: 0; */
+        overflow: hidden;
+        position: relative;
+        display: block;
+        padding-left: 200px;
+    }
+    .text1{
+        margin: auto;
+        font-size: 20px;
+        padding-left: 150px;
+    }
+    .text2{
+        margin: auto;
+        font-size: 20px;
+        padding-left: 50px;
+    }
+    .text5{
+        padding-top: 8%;
+        padding-left :50% ;
+        font-size: 25px; 
+        color: red;
+    }
 
-  #footer{
-    padding-top: auto;
-    margin-top: -26%;
-    margin-bottom: -55%;
-  }
+    .yoko {
 
-      /* 最上部への記述 */
-      #page_top{
+      display:flex;
+      overflow-x:scroll;
+      text-align:center;
+      }
+      .yoko img {
+
+        width:25vw;
+        padding:2vw;
+        }
+
+
+
+
+    .tooltip { /* 補足説明するテキストのスタイル */
+        position: relative;
+        cursor: pointer;
+        padding: 0 5px;
+        font-size: 0.9em;
+        color: #4682b4;
+        z-index: 3;
+      }.description_top { /* ツールチップのスタイル */
+        width: 320px; /* 横幅 */
+        position: absolute;
+        left: 50%;
+        bottom: 80%; /* Y軸の位置 */
+        transform: translateX(-50%);
+        margin-bottom: 8px; /* テキストとの距離 */
+        padding: 8px;
+        border-radius: 10px; /* 角の丸み */
+        background-color: rgb(255, 255, 255);
+        font-size: 0.7em;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        visibility: hidden; /* ツールチップを非表示に */
+        opacity: 0; /* 不透明度を0％に */
+        z-index: 3;
+        transition: 0.5s all; /* マウスオーバー時のアニメーション速度 */
+        border: solid;
+      }.tooltip:hover .description_top { /* マウスオーバー時のスタイル */
+        bottom: 100%; /* Y軸の位置 */
+        visibility: visible; /* ツールチップを表示 */
+        opacity: 1; /* 不透明度を100％に */
+        z-index: 3;
+      } #page_top{
         width: 90px;
         height: 60px;
         position: fixed;
@@ -398,177 +206,83 @@ border-color: #000000;
         text-align: center;
       }
 
-      .drawer-menu{
-        z-index: 11;
-      }
-
-      .drawer-menu-item{
-        z-index: 12;
-      }
-
-      
-      
-      
-      
-      
-      @media screen and (max-width: 480px) {
-
-
-        body{
-          margin:0%;
-          z-index: 1;
-          overflow-x: hidden;
-        }
-      
-
-      .sumahotop{
-      z-index: 1;
-      width: 100%;
-      }
-
-      .kiziimg{
-        z-index: 1;
-        width: 100%;
-        margin-top: -2%;
-        }
-        
-      /* .top{
-        background-image: url(../img/1TOP.png);
-        background-size: cover;
-        padding-top: 50%;
-        z-index: 1;
-        }
-       */
-      /* .back{
-        background-image: url(../img/haikei_1.png);
-        background-size: cover;
-        padding-top: 365%;
-
-        z-index: 1;
-      } */
-      
-      .text1{
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        width: 40%;
-        height: 100%;
-        padding-top: 65%;
-        padding-left: 15%;
+    .group{
         text-align: left;
-        font-size: 40%;
-        line-height: 1.8em;
+        font-size: 30px;        
       }
-      
-      .text2{
+    .aaaa{
+        background-color: violet;
+        padding-bottom: 35%;
+        width:1345px;
+        height:610px;
+    }
+      .aaa{
+          padding-top: 50px;
+          padding-bottom: 50px;
         position: absolute;
-        top: 0%;
-        left: 0%;
-        width: 34%;
-        height: 100%;
-        padding-top: 126%;
-        padding-left: 12%;
-        text-align: left;
-        font-size: 28%;
-        line-height: 1.8em;
+        z-index: 2;
+      
       }
       
-      .title1{
+      .aaa2{
         position: absolute;
-        top: 0%;
-        left: 0%;
-        max-height: 100%;
-        padding-top: 220%;
-        padding-left: 14%;
-        text-align: left;
-        font-size: 40%;
-        line-height: 1.8em;
-      }
-      
-      .text3{
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        width: 70%;
-        padding-top: 225%;
-        padding-left: 14%;
-        text-align: left;
-        font-size: 28%;
-        line-height: 2.6em;
-      }
-      
-      /* 確認問題 */
-      
-      .text4{
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        width: 70%;
-        padding-top: 318%;
-        padding-left: 14%;
-        text-align: left;
-        font-size: 85%;
-        line-height: 1.8em;
-      }
-      
-      .text5{
+        z-index: 2;
         display: none;
       }
+      .webutton{
+        width:90%;
+        height: auto;
+        padding-left: 70px;
+      }
       
-      
-      .group{
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        width: 70%;
-        padding-top: 258%;
+      .text4{
+        /* position: absolute;
+        max-width: 150%;
+        max-height: 100%;
+        padding: 90px;
         padding-left: 14%;
         text-align: left;
-        font-size: 40%;
-        line-height: 2.8em;
-        z-index: 2;
-      }
-    
-        .button1{
-          position: absolute;
-          width: auto;
-          height: auto;  
-          /* top: 148.5%;
-          left: 46.4%; */
-          background-color: white;
-          color: white;
-          font-size: 40%;
-        }
-      
-        .button1:hover{
-          background-color:rgb(255, 255, 255);
-          -webkit-box-shadow:inset 0px 0px 3px #000;
-          -moz-box-shadow:inset 0px 0px 3px #000;
-          box-shadow:inset 0px 0px 3px #000;
-      }
-        .button1:active{
-          padding-top:6px;
-          padding-bottom:4px;
-          border:1px solid #334c66;
-          background-color:#69c;
-          color:#e0ebf5;
-          -webkit-box-shadow:inset 0px 0px 8px #334c66;
-          -moz-box-shadow:inset 0px 0px 2px #3a6da0;
-          box-shadow:inset 0px 0px 2px #3a6da0;
-      }
-      
-      
-      
-      
-      .button2{
+        font-size: 50px; */
+        margin: auto;
+        font-size: 50px;
+        padding-top: 100px;
+        
+      }.button1{
         position: absolute;
         width: auto;
         height: auto;  
-        /* top: 148.5%;
-        left: 64.9%; */
+        /* top: 658%;
+        left: 21.2%; */
         background-color: white;
         color: white;
-        font-size: 40%;
+        border-style: solid;
+        font-size: 90%;
+        z-index: 12;
+      }.button1:hover{
+        background-color:rgb(255, 255, 255);
+        -webkit-box-shadow:inset 0px 0px 3px #000;
+        -moz-box-shadow:inset 0px 0px 3px #000;
+        box-shadow:inset 0px 0px 3px #000;
+    }.button1:active{
+        padding-top:6px;
+        padding-bottom:4px;
+        border:1px solid #334c66;
+        background-color:#69c;
+        color:#e0ebf5;
+        -webkit-box-shadow:inset 0px 0px 8px #334c66;
+        -moz-box-shadow:inset 0px 0px 2px #3a6da0;
+        box-shadow:inset 0px 0px 2px #3a6da0;
+    }.button2{
+        position: absolute;
+        width: auto;
+        height: auto;  
+        /* top: 644%;
+        left: 63.8%; */
+        background-color: white;
+        color: white;
+        border-style: solid;
+        font-size: 90%;
+        z-index: 12;
       }
       
       .button2:hover{
@@ -587,135 +301,87 @@ border-color: #000000;
         -moz-box-shadow:inset 0px 0px 2px #3a6da0;
         box-shadow:inset 0px 0px 2px #3a6da0;
       }
-      
-      .aaa{
-        position: absolute;
-        z-index: 2;
-        top: 720%;
-        display:none;
-      
-      }
 
-      .aaa2{
-        position: absolute;
-        z-index: 2;
-        top: 162%;
-        margin-left: 10%;
+    
+      .ooki{
+        font-size: 30px;
       }
-      
-      .webutton{
-        position: absolute;
-        z-index: 2;
-        top: 134.5%;
-        left: 9.8%;
+      #yokonarabi{
+        display: inline;
+      }
+      .ki{
+        background-color: #EBDF35;
+        margin: 0%;
         height: auto;
-        width: 80%;
+        padding-left: 5%;
+        ;
+    
+      }
+      .fo{
+        font-size: 35px;
+        padding-left: 2%;
+        padding-top: 3%;
+      }
+    
+      .list_triangle {
+          padding: 0px;
+          margin: -5px;
+          list-style: none;
       }
       
-      
-      /* mousuover */
-      
-      .tooltip { /* 補足説明するテキストのスタイル */
-        position: relative;
-        cursor: pointer;
-        padding: 0 5px;
-        font-size: 0.9em;
-        color: #4682b4;
-        z-index: 3;
+      .list_triangle > li {
+          position: relative;
+          padding: 0px 0px 0px 1em;
       }
-       
-      .description_top { /* ツールチップのスタイル */
-        width: 160px; /* 横幅 */
-        position: absolute;
-        left: 50%;
-        bottom: 80%; /* Y軸の位置 */
-        transform: translateX(-50%);
-        margin-bottom: 8px; /* テキストとの距離 */
-        padding: 8px;
-        border-radius: 10px; /* 角の丸み */
-        background-color: rgb(255, 255, 255);
-        font-size: 0.7em;
-        color: rgb(0, 0, 0);
-        text-align: center;
-        visibility: hidden; /* ツールチップを非表示に */
-        opacity: 0; /* 不透明度を0％に */
-        z-index: 3;
-        transition: 0.5s all; /* マウスオーバー時のアニメーション速度 */
-        border: solid;
-      /* 2.borderの太さを指定する */
-      
-      border: 4px solid;
-      /* 3.borderの色を変更する */
-      
-      border: solid;
-      border-color: #000000;
+      .list_triangle > li::before {
+          position: absolute;
+          top: 50%;
+          left: 10px;
+          transform: translateY(-50%);
+          width: 0px;
+          height: 0px;
+          border: 0.3em solid transparent;
+          border-left: 0.4em solid black;
+          content: "";
       }
-       
-      .tooltip:hover .description_top { /* マウスオーバー時のスタイル */
-        bottom: 100%; /* Y軸の位置 */
-        visibility: visible; /* ツールチップを表示 */
-        opacity: 1; /* 不透明度を100％に */
-        z-index: 3;
-      }
-      
-      .red{
-        color: red;
-      }
-      
-      
-      
-          /* フッターの記述 */
-          .ooki{
-            font-size: 15px;
+    
+    .deki{
+        display: block;
+        width: 75%;
+        height: auto;
+        margin: auto;
+    }
+    .font{
+        font-size: 30px;
+        width: 70%;
+        margin: auto;
+    }
+    }@media screen and (max-width: 480px) {
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: violet;
+        
+        }.mannaka{
+            text-align: center;
         }
-        #yokonarabi{
-            display: inline;
-        }
-        .ki{
+        #kiiro{
             background-color: #ebdf35;
-            height: 350px;
-        }
-        .fo{
-            font-size: 35px;
-            margin-top: 0;
-        }
-        .list_triangle {
-            padding: 0px;
-            margin: 5px;
-            list-style: none;
+            width: auto;
         }
         
-        .list_triangle > li {
-            position: relative;
-            padding: 0px 0px 0px 1em;
-        }
-        .list_triangle > li::before {
-            position: absolute;
-            top: 50%;
-            left: 10px;
-            transform: translateY(-50%);
-            width: 0px;
-            height: 0px;
-            border: 0.3em solid transparent;
-            border-left: 0.4em solid black;
-            content: "";
-        }
-      
-      }
-      
-      
-  
-      
-      /* ドロワー、フッターに色をつける */
+        
+        
+        /* ドロワー、フッターに色をつける */
         #ao{
             color: blue;
         }
-      
+        
         #aka{
             color: red;
         }
-      
-      
+        
+        
         /* ドロワー */
         .mannaka{
             text-align: center;
@@ -726,18 +392,137 @@ border-color: #000000;
             width: auto;
             z-index: 10;
         }
+          .ao{
+              background-color: skyblue;
+          }
+          .yell{
+              background-color:#ebdf35;
+              padding-bottom: 30px;
+          }
+          .nani1{
+              width: 100%;
+              height: auto;
+              background-repeat: no-repeat ;
+          }
+          .waku{
+              display: block;
+              margin: auto;
+              background-color: white;
+              border-radius: 10px;
+              width: 300px;;
+              /* display: flex; */
+              padding-top: 20px;
+              padding-bottom: 100px;
+              
+          }
+          .waku2{
+              display: block;
+              
+              margin: auto;
+              background-color: white;
+              border-radius: 10px;
+              width: 330px;;
+          }.aaaa{
+            padding-left:30px;
+          }
+          .ic1{
+              width: 80%;
+              padding-left: 60px;
+              height: auto;
+              /* margin: 0;
+              padding: 0; */
+              overflow: hidden;
+
+              position: relative;
+              display: block;
+          }
+          .ic2{
+              width: 100%;
+              height: auto;
+              /* margin: 0;
+              padding: 0; */
+              padding-left: 30px;
+              overflow: hidden;
+              position: relative;
+              display: block;
+          }
+          .ic3{
+              width:100%;
+              height: auto;
+              padding-right: 20px;
+              /* margin: 0;
+              padding: 0; */
+              overflow: hidden;
+              position: relative;
+              display: block;
+              padding-left: 20px;
+          }
+          .title1{
+            font-size: 20px;
+          }
+          .text1{
+              margin: auto;
+              font-size: 20px;
+              padding-left: 11px;
+              padding-right: 11px;
+          }
+          .text2{
+              margin: auto;
+              font-size: 20px;
+              padding-left: 11px;
+              padding-right: 11px;
+          }
+          .text5{
+              font-size: 25px; 
+              color: red;
+          }
+          .yoko {
+
+            display:flex;
+            overflow-x:scroll;
+            text-align:center;
+            /* margin-bottom: 250px; */
+            }
+            .yoko img {
       
-        #footer{
-          padding-top: auto;
-          margin-top: -20%;
-          margin-bottom: -90%;
-          padding-bottom: 25%;
-          
-          width: 100%;
-        }
-      
-            /* 最上部への記述 */
-            /* #page_top{
+              width:25vw;
+              padding:2vw;
+              }
+          .husen{
+              width: 50%;
+              height: auto;
+          }
+          .tooltip { /* 補足説明するテキストのスタイル */
+              position: relative;
+              cursor: pointer;
+              padding: 0 5px;
+              font-size: 0.9em;
+              color: #4682b4;
+              z-index: 3;
+            }.description_top { /* ツールチップのスタイル */
+              width: 150px; /* 横幅 */
+              position: absolute;
+              left: 50%;
+              bottom: 80%; /* Y軸の位置 */
+              transform: translateX(-50%);
+              margin-bottom: 8px; /* テキストとの距離 */
+              padding: 8px;
+              border-radius: 10px; /* 角の丸み */
+              background-color: rgb(255, 255, 255);
+              font-size: 0.7em;
+              color: rgb(0, 0, 0);
+              text-align: center;
+              visibility: hidden; /* ツールチップを非表示に */
+              opacity: 0; /* 不透明度を0％に */
+              z-index: 3;
+              transition: 0.5s all; /* マウスオーバー時のアニメーション速度 */
+              border: solid;
+            }.tooltip:hover .description_top { /* マウスオーバー時のスタイル */
+              bottom: 100%; /* Y軸の位置 */
+              visibility: visible; /* ツールチップを表示 */
+              opacity: 1; /* 不透明度を100％に */
+                z-index: 3;}
+            /* } #page_top{
               width: 90px;
               height: 60px;
               position: fixed;
@@ -784,17 +569,297 @@ border-color: #000000;
               text-align: center;
             } */
       
-            .drawer-menu{
-              z-index: 11;
+          .group{
+              text-align: left;
+              font-size: 20px;        
             }
-      
-            .drawer-menu-item{
+          .aaaa{
+              background-color: violet;
+              padding-bottom: 35%;
+          }
+            .aaa{
+                padding-top: 50px;
+                padding-bottom: 50px;
+                position: absolute;
+                z-index: 2;
+                width:300px;
+                height:600;
+            }
+
+            .slider img{
+              width: 50%;
+              height: auto;
+            }
+            .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
+              width:94%;
+               margin:0 auto;
+           }
+           
+           .slider img {
+               width:100%;/*スライダー内の画像を横幅100%に*/
+               height:auto;
+           }
+           
+           /*slickのJSで書かれるタグ内、スライド左右の余白調整*/
+           
+           .slider .slick-slide {
+               margin:0 10px;
+           }
+           
+           /*矢印の設定*/
+           
+           /*戻る、次へ矢印の位置*/
+           .slick-prev, 
+           .slick-next {
+               position: absolute;/*絶対配置にする*/
+               top: 42%;
+               cursor: pointer;/*マウスカーソルを指マークに*/
+               outline: none;/*クリックをしたら出てくる枠線を消す*/
+               border-top: 2px solid #666;/*矢印の色*/
+               border-right: 2px solid #666;/*矢印の色*/
+               height: 15px;
+               width: 15px;
+           }
+           
+           .slick-prev {/*戻る矢印の位置と形状*/
+               left: -1.5%;
+               transform: rotate(-135deg);
+           }
+           
+           .slick-next {/*次へ矢印の位置と形状*/
+               right: -1.5%;
+               transform: rotate(45deg);
+           }
+           
+           /*ドットナビゲーションの設定*/
+           
+           .slick-dots {
+               text-align:center;
+             margin:20px 0 0 0;
+           }
+           
+           .slick-dots li {
+               display:inline-block;
+             margin:0 5px;
+           }
+           
+           .slick-dots button {
+               color: transparent;
+               outline: none;
+               width:8px;/*ドットボタンのサイズ*/
+               height:8px;/*ドットボタンのサイズ*/
+               display:block;
+               border-radius:50%;
+               background:#ccc;/*ドットボタンの色*/
+           }
+           
+           .slick-dots .slick-active button{
+               background:#333;/*ドットボタンの現在地表示の色*/
+           }
+           
+           
+           /*========= レイアウトのためのCSS ===============*/
+           
+           body{
+             background:#eee;
+           }
+           
+           h2,p {
+               text-align:center;
+               padding:20px;
+           }
+           
+           ul{
+             margin:0;
+             padding: 0;
+             list-style: none;
+           }
+           
+           a{
+             color: #333;
+           }
+           
+           a:hover,
+           a:active{
+             text-decoration: none;
+           }
+           .rogog{
+             width: 50%;
+             height: auto;
+           }
+
+
+
+
+
+            
+            
+            .aaa2{
+              position: absolute;
+              z-index: 2;
+              
+            }
+            .webutton{
+              width:90%;
+              padding-left: 40px;
+              height: auto;
+              
+            }
+            
+            .text4{
+              /* position: absolute;
+              max-width: 150%;
+              max-height: 100%;
+              padding: 90px;
+              padding-left: 14%;
+              text-align: left;
+              font-size: 50px; */
+              margin: auto;
+              font-size: 25px;
+              padding-top: 100px;
+              
+            }.button1{
+              position: absolute;
+              width: auto;
+              height: auto;  
+              /* top: 658%;
+              left: 21.2%; */
+              background-color: white;
+              color: white;
+              font-size: 90%;
+              z-index: 12;
+            }.button1:hover{
+              background-color:rgb(255, 255, 255);
+              -webkit-box-shadow:inset 0px 0px 3px #000;
+              -moz-box-shadow:inset 0px 0px 3px #000;
+              box-shadow:inset 0px 0px 3px #000;
+          }.button1:active{
+              padding-top:6px;
+              padding-bottom:4px;
+              border:1px solid #334c66;
+              background-color:#69c;
+              color:#e0ebf5;
+              -webkit-box-shadow:inset 0px 0px 8px #334c66;
+              -moz-box-shadow:inset 0px 0px 2px #3a6da0;
+              box-shadow:inset 0px 0px 2px #3a6da0;
+          }.button2{
+              position: absolute;
+              width: auto;
+              height: auto;  
+              /* top: 644%;
+              left: 63.8%; */
+              background-color: white;
+              color: white;
+              font-size: 90%;
               z-index: 12;
             }
-
-
-            .drawer-hamburger-icon,
-            .drawer-hamburger-icon:after,
-            .drawer-hamburger-icon:before {
-              background-color: #ebdf35;
+            
+            .button2:hover{
+              background-color:rgb(255, 255, 255);
+              -webkit-box-shadow:inset 0px 0px 3px #000;
+              -moz-box-shadow:inset 0px 0px 3px #000;
+              box-shadow:inset 0px 0px 3px #000;
             }
+            .button2:active{
+              padding-top:6px;
+              padding-bottom:4px;
+              border:1px solid #334c66;
+              background-color:#69c;
+              color:#e0ebf5;
+              -webkit-box-shadow:inset 0px 0px 8px #334c66;
+              -moz-box-shadow:inset 0px 0px 2px #3a6da0;
+              box-shadow:inset 0px 0px 2px #3a6da0;
+            }
+      
+          
+            .ooki{
+              font-size: 15px;
+          }
+          .ki{
+              background-color: #ebdf35;
+              height: 300px;
+          }
+          .fo{
+              font-size: 28px;
+              margin-top: 0;
+          }
+      
+          .list_triangle {
+              padding: 0px;
+              margin: 0px;
+              list-style: none;
+          }
+          
+          .list_triangle > li {
+              position: relative;
+              padding: 0px 0px 0px 1em;
+          }
+          .list_triangle > li::before {
+              position: absolute;
+              top: 50%;
+              left: 10px;
+              transform: translateY(-50%);
+              width: 0px;
+              height: 0px;
+              border: 0.3em solid transparent;
+              border-left: 0.4em solid black;
+              content: "";
+          }
+      
+    }
+    .drawer-hamburger-icon,
+                .drawer-hamburger-icon:after,
+                .drawer-hamburger-icon:before {
+                  background-color: #ebdf35;
+                }
+
+
+  
+html, body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.sliderArea {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.sliderArea.w300 {
+  max-width: 300px;
+}
+.slick-slide {
+  margin: 0 5px;
+}
+.slick-slide img {
+  width: 100%;
+  height: auto;
+}
+.slick-prev, .slick-next {
+  z-index: 1;
+}
+.slick-prev:before, .slick-next:before {
+  color: #000;
+}
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+.slick-active {
+  opacity: 1;
+}
+.slick-current {
+  opacity: 1;
+}
+.thumb {
+  margin: 20px 0 0;
+}
+.thumb .slick-slide {
+  cursor: pointer;
+}
+.thumb .slick-slide:hover {
+  opacity: .7;
+}
