@@ -109,11 +109,10 @@ body{
     position: absolute;
     width: auto;
     height: auto;  
-    top: 662%;
-    left: 38%;
     background-color: white;
     color: white;
-    font-size: 300%;
+    font-size: 90%;
+    z-index: 12;
   }
 
 
