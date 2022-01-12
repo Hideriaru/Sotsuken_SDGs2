@@ -65,7 +65,7 @@
       margin: auto;
       background-color: white;
       border-radius: 10px;
-      width: 1200px;;
+      width: 1250px;;
   }
   .ic1{
       width: 130%;
@@ -571,7 +571,8 @@
     
         .group{
             text-align: left;
-            font-size: 20px;        
+            font-size: 20px;     
+            padding: 4%;   
           }
         .aaaa{
             background-color: violet;
