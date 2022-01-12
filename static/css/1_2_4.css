@@ -65,10 +65,11 @@
       margin: auto;
       background-color: white;
       border-radius: 10px;
-      width: 1200px;;
+      width: 1250px;
   }
   .ic1{
-      width: 130%;
+      width: 200%;
+
       height: auto;
       /* margin: 0;
       padding: 0; */
@@ -660,9 +661,7 @@
          
          /*========= レイアウトのためのCSS ===============*/
          
-         body{
-           background:#eee;
-         }
+
          
          h2,p {
              text-align:center;
