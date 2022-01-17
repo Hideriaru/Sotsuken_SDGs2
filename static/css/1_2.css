@@ -291,17 +291,17 @@ body{
 
    /* フッターの記述 */
    .ooki{
-    font-size: 35px;
+    font-size: 15px;
 }
 #yokonarabi{
     display: inline;
 }
 .ki{
     background-color: #ebdf35;
-    height: auto;
+    height: 300px;
 }
 .fo{
-    font-size: 35px;
+    font-size: 28px;
     margin-top: 0;
 }
 .list_triangle {
