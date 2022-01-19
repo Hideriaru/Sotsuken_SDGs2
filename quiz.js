@@ -184,7 +184,7 @@ function generate_answer_content(choice) {
         correctCount++;
     // 不正解の場合
     } else {
-        ins += '<h1 id="a" class="p-quiz-result">不正解</h1>';
+        ins += '<h1 class="p-quiz-result" id="wanpan">不正解</h1>';
     }
     ins += '<p class="p-quiz-commentary" id="ma-ka">' + quizData['quiz'][currentQuizNo]['commentary'] + '</p>';
     // 未回答の問題がある場合
