@@ -180,7 +180,7 @@ function generate_answer_content(choice) {
     ins += '<div class="waku1">';
     // 正解の場合
     if(quizData['quiz'][currentQuizNo]['correct'] === choice) {
-        ins += '<h1 id="a" class="p-quiz-result">正解</h1>';
+        ins += '<h1 class="p-quiz-result" id="wanpan">正解</h1>';
         correctCount++;
     // 不正解の場合
     } else {
@@ -208,7 +208,7 @@ function generate_answer_content(choice) {
  * 
  */
 function generate_result_content() {
-    var ins = '<div class="waku1">'+ '<h1 id="a" class="p-quiz-ttl">結果は' + (currentQuizNo+1) + '問中' + correctCount + '問正解でした</h1>';
+    var ins = '<div class="waku1">'+ '<h1 class="p-quiz-ttl" id="wanpan">結果は' + (currentQuizNo+1) + '問中' + correctCount + '問正解でした</h1>';
     for (var i = 0; i < quizData['rank'].length; i++) {
         if(correctCount >= quizData['rank'][i]['count']) {
             ins += '<p class="p-quiz-commentary">' + quizData['rank'][i]['comment'] + '</p>';
